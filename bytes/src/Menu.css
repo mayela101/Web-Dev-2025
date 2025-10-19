@@ -1,17 +1,28 @@
+.title {
+    font-size: 12px;
+}
+
 .divider {
     margin-left: 30px;
     margin-right: 30px;
-    border-top: 2px dashed black;
+    border-top: 1.5px dashed black;
 }
 
 .intro-text {
+    font-size: 8px;
     border: 1px solid black;
     padding: 10px;
     margin-left: 50px;
     margin-right: 50px;
 }
 
+.appetizer-anchor {
+    text-align: left;
+    margin-left: 30px;
+}
+
 .section-header {
+    font-size: 10px;
     text-align: left;
     margin-left: 30px;
 }
