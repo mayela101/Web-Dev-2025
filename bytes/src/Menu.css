@@ -1,5 +1,11 @@
+@font-face {
+    font-family: PixelFont;
+    src: url(./fonts/VCR_OSD_MONO_1.001.ttf);
+}
+
 .title {
-    font-size: 12px;
+    font-size: 14px;
+    font-family: PixelFont;
 }
 
 .divider {
@@ -9,20 +15,23 @@
 }
 
 .intro-text {
-    font-size: 8px;
+    font-size: 9px;
     border: 1px solid black;
     padding: 10px;
     margin-left: 50px;
     margin-right: 50px;
 }
 
-.appetizer-anchor {
+a {
+    font-size: 11px;
     text-align: left;
-    margin-left: 30px;
+    margin-left: 20px;
+    font-family: PixelFont;
 }
 
 .section-header {
-    font-size: 10px;
+    font-size: 11px;
     text-align: left;
     margin-left: 30px;
+    font-family: PixelFont;
 }
