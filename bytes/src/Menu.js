@@ -12,10 +12,10 @@ function Menu() {
 
             <p className = "intro-text"> Welcome to our resturant menu! <br></br> Here you can explore all the types of dishes we offer.</p>
 
-            <a href = "appetizers"> APPETIZERS</a>
-            <a href = "main entrées"> MAIN ENTRÉES</a>
-            <a href = "sweet treats"> SWEET TREATS</a>
-            <a href = "drinks"> DRINKS</a>
+            <a href = "appetizers">APPETIZERS</a>
+            <a href = "main entrées">MAIN ENTRÉES</a>
+            <a href = "sweet treats">SWEET TREATS</a>
+            <a href = "drinks">DRINKS</a>
 
             <hr className = "divider"/>
 
