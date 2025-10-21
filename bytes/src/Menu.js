@@ -17,7 +17,7 @@ function Menu() {
             <a href = "#sweet-treats">SWEET TREATS</a>
             <a href = "#drinks">DRINKS</a>
 
-            <hr className = "divider"/>
+
 
             <h3 id = "appetizers" className = "section-header"> APPETIZERS </h3>
 

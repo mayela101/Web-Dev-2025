@@ -8,14 +8,15 @@
 @media only screen and (min-width: 768px) {
 
     .title {
-        font-size: 25px;
+        font-size: 36px;
         font-family: PixelFont;
+        text-align: center;
     }
 
     .divider {
         margin-left: 40px;
         margin-right: 40px;
-        border-top: 1.5px dashed black;
+        border-top: 2px dashed black;
     }
 
     .intro-text {
@@ -25,17 +26,25 @@
         padding: 10px;
         margin-left: 50px;
         margin-right: 50px;
+        text-align: center;
     }
 
     a {
-        font-size: 16px;
-        text-align: left;
-        margin-left: 100px;
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+        margin-left: 300px;
         font-family: PixelFont;
+        align-items: center;
+        color: #000;
+
+    }
+    a:hover {
+        color: #FF78B3;
     }
 
     .section-header {
-        font-size: 18px;
+        font-size: 28px;
         text-align: left;
         margin-left: 40px;
         font-family: PixelFont;
