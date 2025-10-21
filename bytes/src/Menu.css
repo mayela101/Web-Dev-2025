@@ -1,0 +1,92 @@
+@font-face {
+    font-family: PixelFont;
+    src: url(./fonts/VCR_OSD_MONO_1.001.ttf);
+}
+
+/* Desktop Device */
+
+@media only screen and (min-width: 768px) {
+
+    .title {
+        font-size: 36px;
+        font-family: PixelFont;
+        text-align: center;
+    }
+
+    .divider {
+        margin-left: 40px;
+        margin-right: 40px;
+        border-top: 2px dashed black;
+    }
+
+    .intro-text {
+        font-size: 13px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border: 1px solid black;
+        padding: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
+    }
+
+    a {
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+        margin-left: 300px;
+        font-family: PixelFont;
+        align-items: center;
+        color: #000;
+
+    }
+    a:hover {
+        color: #FF78B3;
+    }
+
+    .section-header {
+        font-size: 28px;
+        text-align: left;
+        margin-left: 40px;
+        font-family: PixelFont;
+    }
+}
+
+/* Mobile Device */
+
+@media only screen and (max-width: 767px) {
+
+    .title {
+    font-size: 18px;
+    font-family: PixelFont;
+    }
+
+    .divider {
+        margin-left: 20px;
+        margin-right: 20px;
+        border-top: 1.5px dashed black;
+    }
+
+    .intro-text {
+        font-size: 11px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border: 1px solid black;
+        padding: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    a {
+        font-size: 11px;
+        text-align: left;
+        margin-left: 20px;
+        font-family: PixelFont;
+    }
+
+    .section-header {
+        font-size: 13px;
+        text-align: left;
+        margin-left: 30px;
+        font-family: PixelFont;
+    }
+
+}
