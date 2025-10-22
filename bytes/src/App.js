@@ -3,6 +3,7 @@ import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import Home from "./Home";
 import Menu from "./Menu";
+import Footer from "./Footer";
 import "./App.css";
 
 export default function App() {
@@ -18,6 +19,9 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/Menu" element={<Menu />} />
       </Routes>
+
+        {/* Footer Component */}
+        <Footer />
     </>
   );
 }
