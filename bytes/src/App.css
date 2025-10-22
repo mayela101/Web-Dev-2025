@@ -2,9 +2,106 @@
   text-align: center;
 }
 
-#banner {
-  width: 100%;
-  background-image: url("tempBanner.png");
-  height: 300px;
-  border: 5px;
+/* Common text styles */
+.content-block-text,
+.content-block-title,
+.content-block-description {
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+/* --------------------------------Styles for Desktop -------------------------------- */
+.content-blocks-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content-block {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.5rem;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.content-block.alternate {
+  flex-direction: row-reverse;
+}
+
+.content-block:hover {
+  transform: translateY(-2px);
+}
+
+/* Image Styles */
+.content-block-image {
+  flex-shrink: 0;
+}
+
+.content-block-image img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Text Styles */
+.content-block-text {
+  flex: 1;
+  text-align: left;
+}
+
+.content-block-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.content-block-description {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* -------------------------------- Styles for Mobile -------------------------------- */
+@media (max-width: 768px) {
+  .content-blocks-container {
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+  
+  .content-block {
+    flex-direction: row;
+    text-align: left;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .content-block.alternate {
+    flex-direction: row-reverse;
+  }
+  
+  .content-block-text {
+    text-align: left;
+  }
+  
+  .content-block-image img {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .content-block-title {
+    font-size: 1.1rem;
+    margin: 0 0 0.75rem 0;
+  }
+  
+  .content-block-description {
+    font-size: .8rem;
+    line-height: 1.5;
+  }
 }
