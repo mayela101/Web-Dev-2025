@@ -31,30 +31,30 @@ export default function Home() {
     {
       id: 1,
       image: "https://i.pinimg.com/1200x/26/3e/80/263e801e6b3dfcbcf01f496ddb539fa8.jpg",
-      title: "Menu Item #1",
+      title: "About Bytes",
       description: "This is a sample description for the menu content block XDDDD. The images are just placeholders for now feel free to change them later.",
-      alt: "Menu Item #1"
+      alt: "About Bytes"
     },
     {
       id: 2,
       image: "https://i.pinimg.com/736x/8c/e4/e3/8ce4e33358e9a203e873c3f81dea45cd.jpg",
-      title: "Menu Item #2",
-      description: "This is a another sample description for the menu content block :3. Clicking on an item takes you to the Menu page for now.",
-      alt: "Menu Item #2"
+      title: "Did you know?",
+      description: "This is a another sample description for the idk we'll just add a fictional fun fact about the restaurant or something XDDDD",
+      alt: "Did you know?"
     },
     {
       id: 3,
       image: "https://i.pinimg.com/736x/62/6d/bd/626dbdc4f1f80d7dc44a78e7478c0498.jpg",
-      title: "Menu Item #3",
-      description: "Another sample description for the menu content block XDDDD",
+      title: "Meet the Owners",
+      description: "Another sample description, idk we can insert a pic of us and pretend we're founders",
       alt: "Menu Item #3"
     },
     {
       id: 4,
       image: "https://i.pinimg.com/1200x/1d/47/07/1d4707ebe7182edeb04bbad3cac3f9e3.jpg",
-      title: "Menu Item #4",
+      title: "Fun Fact",
       description: "Hiiii",
-      alt: "Menu Item #4"
+      alt: "Fun Fact"
     }
   ];
 
@@ -64,6 +64,10 @@ export default function Home() {
 
   return (
     <main className="home">
+
+      {/* Insert Banner stuff */}
+
+      
       <div className="content-blocks-container">
         {contentBlocks.map((block, index) => (
           <ContentBlock
