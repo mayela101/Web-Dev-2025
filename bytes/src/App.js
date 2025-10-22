@@ -4,6 +4,9 @@ function App() {
   return (
     <div className="App">
 
+    <header id = "banner">
+    </header>
+
     </div>
   );
 }
