@@ -1,9 +1,11 @@
 import React from "react";
 import "./Menu.css";
+import MenuGridLayout from "./layout/MenuGridLayout";
 
 function Menu() {
 
     return(
+        <MenuGridLayout>
         <div className = "menu-page"> 
             <header className = "title">
                 <h1 className = "title"> MENU </h1>
@@ -17,19 +19,29 @@ function Menu() {
             <a href = "#sweet-treats">SWEET TREATS</a>
             <a href = "#drinks">DRINKS</a>
 
+             <section id="appetizers">
+          <h3 className="section-header"> APPETIZERS </h3>
+          <MenuGridLayout category="Appetizers" />
+        </section>
 
+        <section id="main-entrees">
+          <h3 className="section-header"> MAIN ENTRÉES </h3>
+          <MenuGridLayout category="Main Entrees" />
+        </section>
 
-            <h3 id = "appetizers" className = "section-header"> APPETIZERS </h3>
+        <section id="sweet-treats">
+          <h3 className="section-header"> SWEET TREATS </h3>
+          <MenuGridLayout category="Sweet Treats" />
+        </section>
 
-            <h3 id = "main-entrees" className = "section-header"> MAIN ENTRÉES </h3>
-
-            <h3 id = "sweet-treats" className = "section-header"> SWEET TREATS </h3>
-
-            <h3 id = "drinks" className = "section-header"> DRINKS </h3>
-            
-
-        </div>
+        <section id="drinks">
+          <h3 className="section-header"> DRINKS </h3>
+          <MenuGridLayout category="Drinks" />
+        </section>
+      </div>
+      </MenuGridLayout>
     );
+    
 }
 
 export default Menu;

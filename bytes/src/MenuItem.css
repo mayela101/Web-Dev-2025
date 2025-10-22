@@ -1,0 +1,25 @@
+.menu-item {
+  text-align: center;
+  max-width: 250px;
+}
+
+.menu-image {
+  width: 130px;
+  height: 130px;
+  background-color: #e9d1dc;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+}
+
+.menu-name {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+
+.menu-desc {
+  color: #666;
+  font-size: 0.85rem;
+  line-height: 1.3;
+}
