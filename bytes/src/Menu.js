@@ -14,7 +14,7 @@ function Menu() {
             <p className = "intro-text"> Welcome to our resturant menu! <br></br> Here you can explore all the types of dishes we offer.</p>
 
             <a href = "#appetizers">APPETIZERS</a>
-            <a href = "#main-entrees">MAIN ENTRÉES</a>
+            <a href = "#main-entrees">MAIN ENTREES</a>
             <a href = "#sweet-treats">SWEET TREATS</a>
             <a href = "#drinks">DRINKS</a>
 
