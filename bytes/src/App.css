@@ -68,6 +68,22 @@
   line-height: 1.6;
 }
 
+/* Styling for Banner */
+.banner {
+  width: 100%;
+  background-image: url("../public/tempBanner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: clamp(250px, 45vh, 520px);
+  position: relative;
+
+  display: grid;
+  place-items: center; 
+  padding: clamp(16px, 6vw, 64px);
+}
+
 /* -------------------------------- Styles for Mobile -------------------------------- */
 @media (max-width: 768px) {
   .content-blocks-container {
@@ -104,4 +120,6 @@
     font-size: .8rem;
     line-height: 1.5;
   }
+
+
 }

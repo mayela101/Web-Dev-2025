@@ -66,6 +66,9 @@ export default function Home() {
     <main className="home">
 
       {/* Insert Banner stuff */}
+      <div className="banner">
+        <h1>Welcome to Our Restaurant</h1>
+      </div>
 
       
       <div className="content-blocks-container">
