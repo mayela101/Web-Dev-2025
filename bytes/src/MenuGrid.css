@@ -1,0 +1,32 @@
+.menu-container {
+  width: 100%;
+  max-width: none;                     
+  margin: 0;
+  padding: 1rem clamp(16px, 4vw, 40px);
+}
+
+.menu-section {
+  margin-bottom: 2rem;
+}
+
+.menu-heading {
+  font-family: "Courier New", monospace;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr)); 
+  column-gap: clamp(16px, 5vw, 72px);   
+  row-gap: 3rem;
+  justify-items: center;   
+}
+
+@media (max-width: 1024px) { .menu-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px)  { .menu-grid { grid-template-columns: 1fr; } }
