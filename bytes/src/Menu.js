@@ -5,7 +5,6 @@ import MenuGridLayout from "./layout/MenuGridLayout";
 function Menu() {
 
     return(
-        <MenuGridLayout>
         <div className = "menu-page"> 
             <header className = "title">
                 <h1 className = "title"> MENU </h1>
@@ -19,13 +18,14 @@ function Menu() {
             <a href = "#sweet-treats">SWEET TREATS</a>
             <a href = "#drinks">DRINKS</a>
 
-             <section id="appetizers">
+
+        <section id="appetizers">
           <h3 className="section-header"> APPETIZERS </h3>
           <MenuGridLayout category="Appetizers" />
         </section>
 
         <section id="main-entrees">
-          <h3 className="section-header"> MAIN ENTRÉES </h3>
+          <h3 className="section-header"> MAIN ENTREES </h3>
           <MenuGridLayout category="Main Entrees" />
         </section>
 
@@ -39,9 +39,8 @@ function Menu() {
           <MenuGridLayout category="Drinks" />
         </section>
       </div>
-      </MenuGridLayout>
+
     );
-    
 }
 
 export default Menu;
