@@ -20,6 +20,14 @@
   font-family: PixelFont;
 }
 
+.nav {
+  background-image: url('/../public/temporary_cat_nav.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 1rem; /* Optional: adds spacing inside the nav */
+}
+
 /* --------------------------------Styles for Desktop -------------------------------- */
 .content-blocks-container {
   display: flex;
