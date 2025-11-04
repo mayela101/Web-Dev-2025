@@ -1,7 +1,12 @@
 // src/Home.js
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./App.css"; // or a Home.css if you prefer
+import "./App.css";
+import homeImage from "./assets/home_img1.png";
+import homeImage2 from "./assets/home_img2.png";
+import homeImage3 from "./assets/home_img3.png";
+import homeImage4 from "./assets/home_img4.png";
+
 
 // Content Block Component
 function ContentBlock({ image, title, description, alt, isAlternate, onClick }) {
@@ -26,32 +31,31 @@ function ContentBlock({ image, title, description, alt, isAlternate, onClick }) 
 export default function Home() {
   const navigate = useNavigate();
 
-  // Sample data: each item in the list is a content block 
   const contentBlocks = [
     {
       id: 1,
-      image: "https://i.pinimg.com/1200x/26/3e/80/263e801e6b3dfcbcf01f496ddb539fa8.jpg",
+      image: homeImage,
       title: "About Bytes",
       description: "This is a sample description for the menu content block XDDDD. The images are just placeholders for now feel free to change them later.",
       alt: "About Bytes"
     },
     {
       id: 2,
-      image: "https://i.pinimg.com/736x/8c/e4/e3/8ce4e33358e9a203e873c3f81dea45cd.jpg",
+      image: homeImage2,
       title: "Did you know?",
       description: "This is a another sample description for the idk we'll just add a fictional fun fact about the restaurant or something XDDDD",
       alt: "Did you know?"
     },
     {
       id: 3,
-      image: "https://i.pinimg.com/736x/62/6d/bd/626dbdc4f1f80d7dc44a78e7478c0498.jpg",
+      image: homeImage3,
       title: "Meet the Owners",
       description: "Another sample description, idk we can insert a pic of us and pretend we're founders",
       alt: "Menu Item #3"
     },
     {
       id: 4,
-      image: "https://i.pinimg.com/1200x/1d/47/07/1d4707ebe7182edeb04bbad3cac3f9e3.jpg",
+      image: homeImage4,
       title: "Fun Fact",
       description: "Hiiii",
       alt: "Fun Fact"
@@ -65,9 +69,8 @@ export default function Home() {
   return (
     <main className="home">
 
-      {/* Insert Banner stuff */}
+
       <div className="banner">
-        <h1>Welcome to Our Restaurant</h1>
       </div>
 
       
