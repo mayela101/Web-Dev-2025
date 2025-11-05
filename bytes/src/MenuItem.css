@@ -9,6 +9,8 @@
   width: 250px;
   height: 250px;
   background-color: #e9d1dc;
+  background-size: cover;
+  background-position: center;
   border-radius: 50%;
   margin: 0 auto 1rem;
 }
