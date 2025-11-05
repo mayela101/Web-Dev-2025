@@ -13,7 +13,7 @@
 
 .wrap {
   position: relative;       
-  width: min(1100px, 92%);
+  width: min(1505px, 92%);
   height: 90px;
 }
 
@@ -25,7 +25,6 @@
   border-radius: 16px;
   box-shadow: 0 12px 24px rgba(255, 90, 165, 0.25);
   z-index: 0;
-
 
   transform: translate(-24px, 0px);  /* left/right, up/down*/
 }
@@ -47,7 +46,7 @@
 
 .brand {
   font-weight: 900;
-  font-size: 32px;
+  font-size: 35px;
   letter-spacing: 2px;
   color: #ff5aa5;
   text-decoration: none;

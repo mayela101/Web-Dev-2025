@@ -1,3 +1,9 @@
+@font-face {
+    font-family: PixelFont;
+    src: url(./fonts/VCR_OSD_MONO_1.001.ttf);
+}
+
+
 .App {
   text-align: center;
 }
@@ -7,8 +13,11 @@
 .content-block-title,
 .content-block-description {
   font-family: 'Inter', sans-serif;
-  letter-spacing: -0.02em;
   color: #000000;
+}
+
+.content-block-title{
+  font-family: PixelFont;
 }
 
 /* --------------------------------Styles for Desktop -------------------------------- */
@@ -17,7 +26,7 @@
   flex-direction: column;
   gap: 2rem;
   padding: 2rem;
-  max-width: 1200px;
+  max-width: 78%;
   margin: 0 auto;
 }
 
@@ -68,6 +77,12 @@
   line-height: 1.6;
 }
 
+/* .block-2 .content-block-image img {
+  height: 500px; 
+  width: 500px;   
+
+} */
+ 
 /* Styling for Banner */
 .banner {
   width: 100%;
@@ -82,7 +97,7 @@
   display: grid;
   place-items: center; 
   padding: clamp(16px, 6vw, 64px);
-  height: 555px
+  height: 685px
 }
 
 /* -------------------------------- Styles for Mobile -------------------------------- */
@@ -98,6 +113,14 @@
     gap: 1rem;
     padding: 1rem;
   }
+
+    .content-block id {
+    flex-direction: row;
+    text-align: left;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
   
   .content-block.alternate {
     flex-direction: row-reverse;

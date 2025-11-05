@@ -42,11 +42,14 @@ body {
         font-size: 18px;
         text-align: center;
         text-decoration: none;
-        margin-left: 200px;
         font-family: PixelFont;
         align-items: center;
         color: #000;
 
+    }
+
+    .menu-page a {
+        margin-left: 300px;
     }
     a:hover {
         color: #FF78B3;
