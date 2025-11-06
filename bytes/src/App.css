@@ -24,62 +24,6 @@
   font-family: PixelFont;
 }
 
-.nav {
-  background-image: url('../public/temporary_cat_nav.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-  height: 4rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
-}
-
-/* This doesn't show up, but theoretically it would be the white rectangle in front of the background*/
-.nav-overlay {
-  background-color: red;
-  width: 300px;
-  height: 100px;
-  position: relative;
-  z-index: 10;
-  border: 2px solid lime;
-}
-
-/* Left side: logo */
-.nav-left {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.nav-logo {
-  height: 1rem;
-  width: auto;
-}
-
-/* Right side: links + socials */
-.nav-right {
-  display: flex;
-  align-items: right;
-  justify-content: flex-end;
-}
-
-.nav-link,
-.nav-social {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s ease;
-}
-
-.nav-link:hover,
-.nav-social:hover {
-  color: #ffd700; /* gold highlight on hover */
-}
-
 /* --------------------------------Styles for Desktop -------------------------------- */
 .content-blocks-container {
   display: flex;

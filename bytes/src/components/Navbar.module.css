@@ -8,6 +8,7 @@
   display: flex;
   justify-content: center;   /* centers the whole bar region */
   align-items: center;
+  background-image: url('../public/temporary_cat_nav.jpg');
 }
 
 
