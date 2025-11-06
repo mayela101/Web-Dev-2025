@@ -3,6 +3,15 @@
     src: url(./fonts/VCR_OSD_MONO_1.001.ttf);
 }
 
+
+body {
+  overflow-x: hidden;
+}
+
+.my-carousel {
+  overflow-x: auto;
+}
+
 /* Desktop Device */
 
 @media only screen and (min-width: 768px) {
@@ -33,11 +42,14 @@
         font-size: 18px;
         text-align: center;
         text-decoration: none;
-        margin-left: 300px;
         font-family: PixelFont;
         align-items: center;
         color: #000;
 
+    }
+
+    .menu-page a {
+        margin-left: 300px;
     }
     a:hover {
         color: #FF78B3;
@@ -46,7 +58,7 @@
     .section-header {
         font-size: 28px;
         text-align: left;
-        margin-left: 40px;
+        margin-left: 20px;
         font-family: PixelFont;
     }
 }

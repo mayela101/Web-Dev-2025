@@ -1,5 +1,6 @@
 import React from "react";
 import "./Menu.css";
+import MenuGridLayout from "./layout/MenuGridLayout";
 
 function Menu() {
 
@@ -13,22 +14,32 @@ function Menu() {
             <p className = "intro-text"> Welcome to our resturant menu! <br></br> Here you can explore all the types of dishes we offer.</p>
 
             <a href = "#appetizers">APPETIZERS</a>
-            <a href = "#main-entrees">MAIN ENTRÉES</a>
+            <a href = "#main-entrees">MAIN ENTREES</a>
             <a href = "#sweet-treats">SWEET TREATS</a>
             <a href = "#drinks">DRINKS</a>
 
 
+        <section id="appetizers">
+          <h3 className="section-header"> APPETIZERS </h3>
+          <MenuGridLayout category="Appetizers" />
+        </section>
 
-            <h3 id = "appetizers" className = "section-header"> APPETIZERS </h3>
+        <section id="main-entrees">
+          <h3 className="section-header"> MAIN ENTREES </h3>
+          <MenuGridLayout category="Main Entrees" />
+        </section>
 
-            <h3 id = "main-entrees" className = "section-header"> MAIN ENTRÉES </h3>
+        <section id="sweet-treats">
+          <h3 className="section-header"> SWEET TREATS </h3>
+          <MenuGridLayout category="Sweet Treats" />
+        </section>
 
-            <h3 id = "sweet-treats" className = "section-header"> SWEET TREATS </h3>
+        <section id="drinks">
+          <h3 className="section-header"> DRINKS </h3>
+          <MenuGridLayout category="Drinks" />
+        </section>
+      </div>
 
-            <h3 id = "drinks" className = "section-header"> DRINKS </h3>
-            
-
-        </div>
     );
 }
 

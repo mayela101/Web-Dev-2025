@@ -1,23 +1,24 @@
 // src/App.js
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+
 import Home from "./Home";
 import Menu from "./Menu";
 import Footer from "./Footer";
 import "./App.css";
 
+// Navbar + background image
+import Navbar from "./components/Navbar";
+import navBg from "./assets/nav-bg.png"; // keep the image in src/assets/
+
 export default function App() {
   return (
     <>
-      {/* temp nav so you can switch pages */}
-      <nav className="nav">
-        <Link to="/">Home</Link>
-        <Link to="/Menu">Menu</Link>
-      </nav>
-
+      <Navbar bgImage={navBg} />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Menu" element={<Menu />} />
+        <Route path="/menu" element={<Menu />} />
+
       </Routes>
 
         {/* Footer Component */}
@@ -25,3 +26,4 @@ export default function App() {
     </>
   );
 }
+
