@@ -48,8 +48,23 @@ body {
 
     }
 
+    .menu-nav {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        max-width: 100vw;
+        margin: 20px 0;
+        padding: 0;
+    }
+
+    .menu-nav a {
+        margin-left: 0;
+        flex: 1;
+        text-align: center;
+    }
+
     .menu-page a {
-        margin-left: 300px;
+        margin-left: 0;
     }
     a:hover {
         color: #FF78B3;
@@ -85,6 +100,28 @@ body {
         padding: 10px;
         margin-left: 50px;
         margin-right: 50px;
+    }
+
+    .menu-nav {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        max-width: 100vw;
+        margin: 20px 0;
+        padding: 0;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .menu-nav a {
+        margin-left: 0;
+        flex: 1;
+        text-align: center;
+        min-width: 0;
+    }
+
+    .menu-page a {
+        margin-left: 0;
     }
 
     a {
