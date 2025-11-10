@@ -77,29 +77,7 @@
   line-height: 1.6;
 }
 
-.footer {
-  display: flex;
-  justify-content: space-between; /* pushes the left and right sides apart */
-  align-items: center;
-  padding-inline: 100px;
-  padding-bottom: 30px;
-}
 
-.footer-left p {
-  margin: 2px 0; 
-}
-
-.footer-right {
-  align-items: flex-end;
-  justify-content: flex-end;
-}
-
-.social-media-icons {
-  display: flex;
-  gap: 15px;
-  align-items: flex-end;
-  justify-content: flex-end;
-}
 
 /* .block-2 .content-block-image img {
   height: 500px; 
