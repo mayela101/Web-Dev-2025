@@ -54,14 +54,14 @@ export default function Home() {
       image: homeImage3,
       title: "MEET THE OWNERS",
       description:
-        "Another sample description, idk we can insert a pic of us and pretend we're founders",
+        "We are a group of people who share a love for food and technology! We came together in order to create tasty dishes for others to enjoy.",
       alt: "Meet the Owners",
     },
     {
       id: 4,
       image: homeImage4,
       title: "FUN FACT",
-      description: "Hiiii",
+      description: "The name ‘Bytes’ was chosen as it references our passion for technology and our goal to create tasty bites!",
       alt: "Fun Fact",
     },
   ];
