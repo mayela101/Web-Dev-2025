@@ -7,7 +7,7 @@ import Menu from "./Menu";
 
 // Navbar + background image
 import Navbar from "./components/Navbar";
-import navBg from "./assets/nav-bg.png"; // keep the image in src/assets/
+import navBg from "./assets/temporary_cat_nav.jpg"; // keep the image in src/assets/
 
 export default function App() {
   return (
@@ -18,6 +18,7 @@ export default function App() {
         <Route path="/menu" element={<Menu />} />
 
       </Routes>
+      
     </>
   );
 }
