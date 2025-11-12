@@ -9,7 +9,9 @@ const MenuItem = ({ name, desc, imgUrl }) => {
          style={{
           backgroundImage: `url(${imgUrl})`,
         }}
-      ></div>
+      >
+        <div className="overlay"></div>
+      </div>
       <h3 className="menu-name">{name}</h3>
       <p className="menu-desc">{desc}</p>
     </div>

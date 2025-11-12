@@ -20,6 +20,10 @@
   font-family: PixelFont;
 }
 
+.content-block-title{
+  font-family: PixelFont;
+}
+
 /* --------------------------------Styles for Desktop -------------------------------- */
 .content-blocks-container {
   display: flex;
