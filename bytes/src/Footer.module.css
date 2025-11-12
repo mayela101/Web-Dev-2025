@@ -7,6 +7,10 @@
   background: #ffb6d4;
 }
 
+.footer p {
+  margin: 2px 0;
+}
+
 .wrap {
   position: absolute;       
   width: min(1505px, 92%);
@@ -32,10 +36,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 clamp(10px, 3vw, 40px);
-}
 
-.footer-left p {
-  margin: 2px 0; 
+  transform: translate(-24px, 0px);  /* left/right, up/down*/
 }
 
 .footer-right {

@@ -1,6 +1,6 @@
 //src/Footer.js
 import React from "react"; 
-import { FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaCompass } from "react-icons/fa";
 // import "./App.css";
 import styles from "./Footer.module.css";
 import bg from "./assets/nav-bg.png";
@@ -20,14 +20,32 @@ export default function Footer() {
           </div>
           <div className={styles["footer-right"]}>
             <div className={styles["social-media-icons"]}>
+              <a
+                href="https://www.instagram.com/cppshecodes/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaInstagram />
-                <FaFacebook />
-                <FaYoutube />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/cpp-shecodes/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin />
+              </a>
+              <a
+                href="https://www.cppshecodes.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaCompass />
+              </a>         
             </div>
             <p>©2025 Bytes™ All rights reserved.</p>
           </div>
         </div>
       </div>
     </footer>
-    )
+  )
 }
