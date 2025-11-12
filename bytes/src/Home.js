@@ -54,14 +54,14 @@ export default function Home() {
       image: homeImage3,
       title: "MEET THE OWNERS",
       description:
-        "We are a group of people who share a love for food and technology! We came together in order to create tasty dishes for others to enjoy.",
+        "Behind Bytes is a team of food and tech enthusiasts! We came together with the shared goal of creating delicious dishes for everyone to enjoy.",
       alt: "Meet the Owners",
     },
     {
       id: 4,
       image: homeImage4,
       title: "FUN FACT",
-      description: "The name ‘Bytes’ was chosen as it references our passion for technology and our goal to create tasty bites!",
+      description: "The name ‘Bytes’ was chosen for our restaurant as it references our passion for technology and our mission to create tasty bites!",
       alt: "Fun Fact",
     },
   ];
