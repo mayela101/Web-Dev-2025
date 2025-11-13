@@ -43,7 +43,7 @@
   width: 100%;
   opacity: 0;
   transition: .3s ease-in-out;
-  background-color: #ff5aa5;
+  background-color: var(--primary-color);
 }
 
 .menu-image:hover {

@@ -4,7 +4,8 @@
   align-items: center;
   padding-inline: 100px;
   height: 150px;
-  background: #ffb6d4;
+  background: var(--secondary-color);
+  font-family: var(--font-stack);
 }
 
 .footer p {
@@ -51,4 +52,9 @@
   height: 25px;
   align-items: flex-end;
   justify-content: flex-end;
+}
+
+/* color when social media icons are hovered over with mouse */
+a:hover {
+    color: var(--hover-color);
 }

@@ -1,8 +1,12 @@
-@font-face {
+/* @font-face {
     font-family: PixelFont;
     src: url(./fonts/VCR_OSD_MONO_1.001.ttf);
-}
+} */
 
+/* Font Styles */
+:root {
+    --menu-font-stack: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 body {
   overflow-x: hidden;
@@ -18,7 +22,7 @@ body {
 
     .title {
         font-size: 36px;
-        font-family: PixelFont;
+        font-family: var(--heading-font);
         text-align: center;
     }
 
@@ -30,7 +34,7 @@ body {
 
     .intro-text {
         font-size: 13px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: var(--menu-font-stack);
         border: 1px solid black;
         padding: 10px;
         margin-left: 50px;
@@ -42,7 +46,7 @@ body {
         font-size: 18px;
         text-align: center;
         text-decoration: none;
-        font-family: PixelFont;
+        font-family: var(--heading-font);
         align-items: center;
         color: #000;
 
@@ -67,14 +71,14 @@ body {
         margin-left: 0;
     }
     a:hover {
-        color: #FF78B3;
+        color: var(--hover-color);
     }
 
     .section-header {
         font-size: 28px;
         text-align: left;
         margin-left: 20px;
-        font-family: PixelFont;
+        font-family: var(--heading-font);
     }
 }
 
@@ -84,7 +88,7 @@ body {
 
     .title {
     font-size: 18px;
-    font-family: PixelFont;
+    font-family: var(--heading-font);
     }
 
     .divider {
@@ -95,7 +99,7 @@ body {
 
     .intro-text {
         font-size: 11px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: var(--menu-font-stack);
         border: 1px solid black;
         padding: 10px;
         margin-left: 50px;
@@ -128,14 +132,14 @@ body {
         font-size: 11px;
         text-align: left;
         margin-left: 20px;
-        font-family: PixelFont;
+        font-family: var(--heading-font);
     }
 
     .section-header {
         font-size: 13px;
         text-align: left;
         margin-left: 30px;
-        font-family: PixelFont;
+        font-family: var(--heading-font);
     }
 
 }

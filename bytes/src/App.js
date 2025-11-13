@@ -21,8 +21,8 @@ export default function App() {
 
       </Routes>
 
-        {/* Footer Component */}
-        <Footer />
+      {/* Footer Component */}
+      <Footer />
     </>
   );
 }
