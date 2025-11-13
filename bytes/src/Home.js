@@ -2,6 +2,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./App.css";
+import "./ContentBlock.css";
 
 // local images (adjust paths if your file is in a different folder)
 import homeImage from "./assets/home_img1.png";
@@ -20,7 +21,7 @@ function ContentBlock({ block, isAlternate, onClick }) {
       <div className="content-block-image">
         <img src={block.image} alt={block.alt || ""} />
       </div>
-      <div className="content-block-text">
+      <div className={`content-block-text block-text-${block.id} ${isAlternate ? "alternate" : ""}`}>
         {block.title && <h3 className="content-block-title">{block.title}</h3>}
         {block.description && (
           <p className="content-block-description">{block.description}</p>
@@ -67,7 +68,7 @@ export default function Home() {
   ];
 
   const handleContentBlockClick = () => {
-    navigate("/menu"); // make sure your route is lowercase /menu
+    navigate("/about"); // make sure your route is lowercase /menu
   };
 
   return (
