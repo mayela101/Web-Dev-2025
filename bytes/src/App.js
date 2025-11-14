@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 
 import Home from "./Home";
 import Menu from "./Menu";
+import About from "./About";
 
 // Navbar + background image
 import Navbar from "./components/Navbar";
@@ -16,6 +17,8 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
+         <Route path="/about" element={<About />} />
+
 
       </Routes>
       

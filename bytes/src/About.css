@@ -1,0 +1,34 @@
+.about-page {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.section-header {
+  margin-top: 3rem;
+}
+
+.section-title {
+  font-family: "PixelFont", sans-serif; /* use your pixel font */
+  font-size: 2rem;
+  text-transform: lowercase;
+  margin-bottom: 0.5rem;
+}
+
+.divider {
+  border: none;
+  border-top: 2px dashed black;
+  width: 70%;
+  margin: 0.5rem auto 2rem;
+}
+
+.about-description {
+  max-width: 600px;
+  margin: 0 auto 3rem;
+}
+
+.empty-section {
+  height: 100px; /* placeholder space */
+}
