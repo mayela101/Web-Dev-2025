@@ -2,6 +2,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./App.css";
+import { useEffect, useRef } from "react";
+
 
 // local images (adjust paths if your file is in a different folder)
 import homeImage from "./assets/home_img1.png";
@@ -66,6 +68,28 @@ export default function Home() {
     },
   ];
 
+  const pathRef = useRef(null);
+
+useEffect(() => {
+  const path = document.querySelector(".swirl-path");
+  if (!path) return;
+
+  const pathLength = path.getTotalLength();
+  path.style.strokeDasharray = pathLength;
+  path.style.strokeDashoffset = pathLength;
+
+  const handleScroll = () => {
+    const scrollTop = window.scrollY;
+    const docHeight = document.body.scrollHeight - window.innerHeight;
+    const progress = Math.min(scrollTop / docHeight, 1);
+    path.style.strokeDashoffset = pathLength * (1 - progress);
+  };
+
+  window.addEventListener("scroll", handleScroll);
+  return () => window.removeEventListener("scroll", handleScroll);
+}, []);
+
+
   const handleContentBlockClick = () => {
     navigate("/menu"); // make sure your route is lowercase /menu
   };
@@ -74,6 +98,19 @@ export default function Home() {
     <main className="home">
       {/* Banner area */}
       <div className="banner" />
+      {/* Pink swirl line */}
+<svg className="swirl-line" viewBox="0 0 1000 3000" preserveAspectRatio="xMidYMid meet">
+  <path
+    className="swirl-path"
+    d="M 520,  80
+       C 740, 380  680, 800  920,  1280
+       C 1040, 1480 1380, 1560 1620, 1740
+       C 1320, 1860 460, 2040 800, 2360
+       C 1080, 2540 540, 2680 1390, 2760
+       "
+  />
+
+</svg>
 
       {/* Content blocks */}
       <div className="content-blocks-container">

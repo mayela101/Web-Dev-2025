@@ -8,6 +8,11 @@
   text-align: center;
 }
 
+/* Ensure the main container is a positioning context for the absolute SVG */
+.home {
+  position: relative;
+}
+
 /* Common text styles */
 .content-block-text,
 .content-block-title,
@@ -32,6 +37,7 @@
   padding: 2rem;
   max-width: 78%;
   margin: 0 auto;
+  z-index:1;
 }
 
 .content-block {
@@ -81,12 +87,65 @@
   line-height: 1.6;
 }
 
-/* .block-2 .content-block-image img {
-  height: 500px; 
-  width: 500px;   
+.block-1 .content-block-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: left;
+  margin-left:100px;
+}
 
-} */
+.block-1 .content-block-description {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-left:100px;
+  text-align: left;
+}
+
+.block-1 .content-block-image img {
+  height: 500px; 
+  width: 500px;  
+  margin-left:200px;
+
+} 
+
+.block-2 .content-block-image img {
+  height: 500px; 
+  width: 500px;  
+  margin-right:200px; 
+
+} 
+
+.block-3 .content-block-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: left;
+  margin-left:100px;
+}
+
+.block-3 .content-block-description {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-left:100px;
+  text-align:left;
+}
+
+.block-3 .content-block-image img {
+  height: 500px; 
+  width: 500px;  
+  margin-left:200px;
+} 
  
+.block-4 .content-block-image img {
+  height: 500px; 
+  width: 500px;  
+  margin-right:200px; 
+
+} 
+
 /* Styling for Banner */
 .banner {
   width: 100%;
@@ -103,6 +162,30 @@
   padding: clamp(16px, 6vw, 64px);
   height: 685px
 }
+
+/* --- Swirl line --- */
+.swirl-line {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  transform: translateX(-40%);
+  width: 100%;
+  /* make the SVG tall enough so the path (which extends far down) is visible */
+  height: 3000px;
+  pointer-events: none; /* don't block clicks */
+  z-index: -1; /* behind the content */
+}
+
+.swirl-path {
+  fill: none;
+  stroke: #ff5aa5;              /* your brand pink */
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke-dasharray: 4000;       /* total path length */
+  stroke-dashoffset: 2000;      /* start hidden */
+  transition: stroke-dashoffset 0.2s ease-out;
+}
+
 
 /* -------------------------------- Styles for Mobile -------------------------------- */
 @media (max-width: 768px) {
