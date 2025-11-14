@@ -1,6 +1,5 @@
 .about-page {
   width: 100%;
-  max-width: 900px;
   margin: 0 auto;
   padding: 2rem 1rem;
   text-align: center;
@@ -20,13 +19,14 @@
 .divider {
   border: none;
   border-top: 2px dashed black;
-  width: 70%;
-  margin: 0.5rem auto 2rem;
+  width: 95%;
+  margin: 2rem 0rem 2rem 2rem;
 }
 
-.about-description {
-  max-width: 600px;
+.intro-text {
+  max-width: 960px;
   margin: 0 auto 3rem;
+  font-size:16.5px;
 }
 
 .empty-section {
