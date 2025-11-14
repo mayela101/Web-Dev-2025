@@ -6,7 +6,6 @@ import Home from "./Home";
 import Menu from "./Menu";
 import About from "./About";
 
-
 // Navbar + background image
 import Navbar from "./components/Navbar";
 import navBg from "./assets/temporary_cat_nav.jpg"; // keep the image in src/assets/
@@ -18,7 +17,6 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
-
          <Route path="/about" element={<About />} />
 
 
