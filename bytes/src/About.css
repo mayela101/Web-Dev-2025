@@ -32,3 +32,92 @@
 .empty-section {
   height: 100px; /* placeholder space */
 }
+
+@font-face {
+    font-family: PixelFont;
+    src: url(./fonts/VCR_OSD_MONO_1.001.ttf);
+}
+
+
+.App {
+  text-align: center;
+}
+
+/* Ensure the main container is a positioning context for the absolute SVG */
+.home {
+  position: relative;
+}
+
+/* Common text styles */
+.content-block-text,
+.content-block-title,
+.content-block-description {
+  font-family: 'Inter', sans-serif;
+  color: #000000;
+}
+
+.content-block-title{
+  font-family: PixelFont;
+}
+
+.content-block-title{
+  font-family: PixelFont;
+}
+
+/* --------------------------------Styles for Desktop -------------------------------- */
+.content-blocks-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 78%;
+  margin: 0 auto;
+  z-index:1;
+}
+
+.content-block {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.5rem;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.content-block.alternate {
+  flex-direction: row-reverse;
+}
+
+.content-block:hover {
+  transform: translateY(-2px);
+}
+
+/* Image Styles */
+.content-block-image {
+  flex-shrink: 0;
+}
+
+.content-block-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Text Styles */
+.content-block-text {
+  flex: 1;
+  text-align: left;
+}
+
+.content-block-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.content-block-description {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}

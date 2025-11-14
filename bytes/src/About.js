@@ -3,8 +3,8 @@ import React from "react";
 //import MenuGridLayout from "./layout/MenuGridLayout";
 import "./About.css";
 import "./ContentBlock.css";
+import TeamBlock from "./TeamBlock.jsx";
 
-import TeamBlock from "./TeamBlock";
 import team1 from "./assets/team/team1.png";
 import team2 from "./assets/team/team2.png";
 import team3 from "./assets/team/team3.jpg";
@@ -12,7 +12,7 @@ import team4 from "./assets/team/team4.png";
 import team5 from "./assets/team/team5.jpeg";
 import team6 from "./assets/team/team6.png";
 import team7 from "./assets/team/team7.png";
-
+import teamtemp from "./assets/team/teamtemp.jpg";
 
 
 function About() {
@@ -84,7 +84,7 @@ function About() {
         },
         {
         id: 6,
-        image: team6,
+        image: teamtemp,
         name: "KERRY KONG",
         year: "3rd Year, Computer Science Major",
         interest: "Interests: N/A",
