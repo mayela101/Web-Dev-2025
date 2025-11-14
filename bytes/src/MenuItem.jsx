@@ -5,14 +5,11 @@ import "./MenuItem.css";
 const MenuItem = ({ name, desc, imgUrl }) => {
   return (
     <div className="menu-item">
-      <div className="menu-image"
-         style={{
-          backgroundImage: `url(${imgUrl})`,
-        }}
-      >
-        <div className="overlay"></div>
+      <div className="menu-image">
+        <img src={imgUrl} alt={name} />
+        <div className="overlay"></div>  {/* 👈 this adds your tint */}
       </div>
-      <h3 className="menu-name">{name}</h3>
+      <h4 className="menu-name">{name}</h4>
       <p className="menu-desc">{desc}</p>
     </div>
   );

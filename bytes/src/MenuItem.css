@@ -10,7 +10,7 @@
   overflow: hidden;
   width: 250px;
   height: 250px;
-  background-color: #e9d1dc;
+  /* background-color: #e9d1dc; */
   background-size: cover;
   background-position: center;
   border-radius: 50%;
@@ -52,4 +52,11 @@
 
 .menu-image:hover .overlay{
   opacity: 0.15;
+}
+
+.menu-image img {
+  display: block;      /* remove inline-gap */
+  width: 100%;         /* fill the circle */
+  height: 100%;
+  object-fit: cover;   /* crop to the circle, no squish */
 }

@@ -38,16 +38,16 @@ export default function Home() {
     {
       id: 1,
       image: homeImage,
-      title: "ABOUT BYTES",
+      title: "OUR STORY",
       description:
-        "This is a sample description for the menu content block XDDDD. The images are just placeholders for now feel free to change them later.",
+        "Welcome to Bytes, where technology meets taste! Founded in 2025, Bytes is a unique cafe that combines our love for food and technology. Our mission is to provide delicious, tech-inspired dishes that satisfy both your hunger and your mind.",
       alt: "About Bytes",
     },
     {
       id: 2,
       image: homeImage2,
       title: "DID YOU KNOW?",
-      description: "Another sample description here.",
+      description: "A byte is a unit of digital information made up of 8 bits. Just like how a byte is made up of smaller bits, our dishes are crafted from a combination of fresh ingredients to create a byte-worthy experience!",
       alt: "Did you know?",
     },
     {
