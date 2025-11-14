@@ -9,7 +9,7 @@ function About() {
         <div className = "about-page"> 
         {/*About */}
             <header className = "title">
-                <h1 className = "title"> about </h1>
+                <h1 className = "title"> ABOUT </h1>
                 <hr className = "divider"/>
             </header>
 
@@ -19,13 +19,13 @@ function About() {
 
              {/*Team Leads */} 
             <header className = "title">
-                <h1 className = "title"> team leads </h1>
+                <h1 className = "title"> TEAM LEADS </h1>
                 <hr className = "divider"/>
             </header>
             
              {/*Team Members */}
             <header className = "title">
-                <h1 className = "title"> team members </h1>
+                <h1 className = "title"> TEAM MEMBERS </h1>
                 <hr className = "divider"/>
             </header> 
       </div>
