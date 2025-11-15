@@ -89,7 +89,7 @@
 
 .home .block-1 .content-block-title {
   margin: 0 0 0.5rem 0;
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   font-weight: bold;
   text-align: left;
   margin-left:100px;
@@ -97,7 +97,7 @@
 
 .home .block-1 .content-block-description {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 1.6;
   margin-left:100px;
   text-align: left;
@@ -117,9 +117,18 @@
 
 } 
 
+.home .block-2 .content-block-title {
+  font-size: 2.4rem;
+
+} 
+
+.home .block-2 .content-block-description {
+  font-size: 1.4rem;
+
+} 
 .home .block-3 .content-block-title {
   margin: 0 0 0.5rem 0;
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   font-weight: bold;
   text-align: left;
   margin-left:100px;
@@ -127,7 +136,7 @@
 
 .home .block-3 .content-block-description {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 1.6;
   margin-left:100px;
   text-align:left;
@@ -146,6 +155,12 @@
 
 } 
 
+.home .block-4 .content-block-title {
+  font-size: 2.4rem;
+} 
+.home .block-4 .content-block-description {
+  font-size: 1.4rem;
+} 
 /* Styling for Banner */
 .banner {
   width: 100%;

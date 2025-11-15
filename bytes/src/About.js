@@ -13,6 +13,7 @@ import team5 from "./assets/team/team5.jpeg";
 import team6 from "./assets/team/team6.png";
 import team7 from "./assets/team/team7.png";
 import teamtemp from "./assets/team/teamtemp.jpg";
+import team8 from "./assets/team/team8.jpg";
 
 
 function About() {
@@ -84,7 +85,7 @@ function About() {
         },
         {
         id: 6,
-        image: teamtemp,
+        image: team8,
         name: "KERRY KONG",
         year: "N/A",
         interest: "Interests: N/A",

@@ -16,14 +16,14 @@ function Contact() {
 
       <div className="contact-container">
         <div className="contact-info">
-          <p><strong>Email:</strong> hello@bytes.cafe</p>
+          <p><strong>Email:</strong> catering@bytescafe.com</p>
           <p><strong>Location:</strong> Cal Poly Pomona, CA</p>
           <p><strong>Hours:</strong></p>
           <p>Monday: 9AM - 8PM</p>
           <p>Tuesday: 9AM - 8PM</p>
           <p>Wednesday: 9AM - 8PM</p>
           <p>Thursday: 9AM - 8PM</p>
-          <p>Friday:90AM - 8PM</p>
+          <p>Friday: 9AM - 8PM</p>
           <p>Saturday: 10AM - 5PM</p>
           <p>Sunday: CLOSED</p>
         </div>

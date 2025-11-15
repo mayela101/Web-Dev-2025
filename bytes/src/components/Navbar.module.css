@@ -56,9 +56,10 @@
 .link {
   color: #222;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   transition: color .2s ease;
 }
+
 .link:hover { color: #ff5aa5; }
 

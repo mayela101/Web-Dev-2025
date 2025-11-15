@@ -1,5 +1,11 @@
 {
   "dependencies": {
-    "react-router-dom": "^7.9.5"
+    "react-router-dom": "^7.9.5",
+    "react-scripts": "^5.0.1",
+    "start": "^5.1.0"
+  },
+  
+  "scripts":{
+    "start": "react-scripts start"
   }
 }
