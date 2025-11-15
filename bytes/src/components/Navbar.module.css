@@ -6,7 +6,7 @@
   background-repeat: repeat;
   background-size: 40%;
   display: flex;
-  justify-content: center;   /* centers the whole bar region */
+  justify-content: center;   
   align-items: center;
 }
 
@@ -18,14 +18,14 @@
 
 .plate {
   position: absolute;
-  inset: 0;                  /* same size as .wrap */
+  inset: 0;
   background: rgba(255,255,255,0.72);
   backdrop-filter: blur(4px);
   border-radius: 16px;
   box-shadow: 0 12px 24px rgba(255, 90, 165, 0.25);
   z-index: 0;
 
-  transform: translate(-24px, 0px);  /* left/right, up/down*/
+  transform: translate(-24px, 0px);
 }
 
 .content {

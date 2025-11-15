@@ -19,9 +19,9 @@ const TeamBlock = ({ block, isAlternate, onClick }) => {
           {block.interest && (
             <p className="content-block-description">{block.interest}</p>
           )}
-          {block.contribution && (
+          <strong>{block.contribution && (
             <p className="content-block-description">{block.contribution}</p>
-          )}
+          )}</strong>
         </div>
       </div>
     );

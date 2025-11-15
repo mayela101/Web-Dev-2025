@@ -59,7 +59,7 @@ function About() {
         id: 3,
         image: team5,
         name: "SARA DOWNING",
-        year: "2Nd Year, Computer Science Major",
+        year: "2nd Year, Computer Science Major",
         interest: "Interest: Cybersecurity, Software Dev, Web Dev",
         contribution: "Web Developer",
         alt: "Headshot",
@@ -79,16 +79,16 @@ function About() {
         name: "SAYUMI AMARASINGHE",
         year: "3rd Year, Computer Science Major",
         interest: "Interests: Web Dev, UI/UX, Machine Learning",
-        contribution: "Contribution",
+        contribution: "Web Developer",
         alt: "Headshot",
         },
         {
         id: 6,
         image: teamtemp,
         name: "KERRY KONG",
-        year: "3rd Year, Computer Science Major",
+        year: "N/A",
         interest: "Interests: N/A",
-        contribution: "N/A",
+        contribution: "Web Developer",
         alt: "Headshot",
         }
     ];
