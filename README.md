@@ -78,6 +78,7 @@ This project is for educational purposes and is not intended for commercial use.
 cd bytes
 
 npm install
+
 npm install react-icons
 
 npm start
