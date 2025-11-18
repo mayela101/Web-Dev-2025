@@ -1,4 +1,4 @@
-## BYTES — A Tech-Themed Cat Café Website (SLP Web Dev Team #1 2025)
+## BYTES: A Tech-Themed Cat Café Website (SLP Web Dev Team #1 2025)
 
 **BYTES** is a creative, tech-inspired fictional restaurant website built for a front-end web development project.  
 It combines interactive design, cohesive branding, and dynamic content to bring a playful “tech-meets-dessert” café concept to life.
@@ -45,7 +45,7 @@ Our goal was to design and build a fully responsive, single-page web application
 
 ---
 
-[🔗 Live Site (GitHub Pages)](https://yourusername.github.io/bytes)
+[🔗 Live Site (GitHub Pages)](https://mayela101.github.io/bytes)
 
 ---
 
